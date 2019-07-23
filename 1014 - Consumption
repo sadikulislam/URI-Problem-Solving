@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main()
+{
+    int A;
+    double B;
+    scanf("%d %lf",&A,&B);
+    printf("%0.3lf km/l\n",A/B,A,B);
+
+    return 0;
+}
